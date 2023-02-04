@@ -43,9 +43,6 @@ public class Main {
                     double s = in.nextInt();
                     double sm = 0.0;
                     int min = t*60+t1;
-                    if (min>21*60 || min<8*60){
-                        s = s*0.8;
-                    }
                     for (int i = 0; i<dt;i++){
                         min = min +1;
                         if (min == 24*60) {
